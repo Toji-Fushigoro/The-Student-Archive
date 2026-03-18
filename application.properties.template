@@ -1,0 +1,14 @@
+# OAuth Configuration Template
+# Copy this file to application.properties and fill in your credentials
+
+# Google OAuth
+spring.security.oauth2.client.registration.google.client-id=YOUR_GOOGLE_CLIENT_ID_HERE
+spring.security.oauth2.client.registration.google.client-secret=YOUR_GOOGLE_CLIENT_SECRET_HERE
+
+# GitHub OAuth  
+spring.security.oauth2.client.registration.github.client-id=YOUR_GITHUB_CLIENT_ID_HERE
+spring.security.oauth2.client.registration.github.client-secret=YOUR_GITHUB_CLIENT_SECRET_HERE
+
+# Database Configuration
+spring.datasource.username=YOUR_DB_USERNAME
+spring.datasource.password=YOUR_DB_PASSWORD
